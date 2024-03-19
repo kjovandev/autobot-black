@@ -1,0 +1,271 @@
+{"sports": {
+    "Soccer": {
+        "events": {
+            "1": {
+                "event_name": "Soccer Event 1",
+                "bookmakers": {
+                    "Bookmaker A": {
+                        "odds_over_2.5": 2.0,
+                        "odds_under_2.5": 1.8
+                    },
+                    "Bookmaker B": {
+                        "odds_over_2.5": 1.9,
+                        "odds_under_2.5": 2.0
+                    },
+                    "Bookmaker C": {
+                        "odds_over_2.5": 2.1,
+                        "odds_under_2.5": 1.7
+                    }, "Bookmaker D": {
+                        "odds_over_2.5": 2.1,
+                        "odds_under_2.5": 1.7
+                    }, "Bookmaker E": {
+                        "odds_over_2.5": 2.1,
+                        "odds_under_2.5": 1.7
+                    }, "Bookmaker F": {
+                        "odds_over_2.5": 2.1,
+                        "odds_under_2.5": 1.7
+                    }, "Bookmaker G": {
+                        "odds_over_2.5": 2.1,
+                        "odds_under_2.5": 1.7
+                    }
+                }
+            },
+            "2": {
+                "event_name": "Soccer Event 2",
+                "bookmakers": {
+                    "Bookmaker A": {
+                        "odds_over_2.5": 2.0,
+                        "odds_under_2.5": 1.8
+                    },
+                    "Bookmaker B": {
+                        "odds_over_2.5": 1.9,
+                        "odds_under_2.5": 2.0
+                    },
+                    "Bookmaker C": {
+                        "odds_over_2.5": 2.1,
+                        "odds_under_2.5": 1.7
+                    }, "Bookmaker D": {
+                        "odds_over_2.5": 2.1,
+                        "odds_under_2.5": 1.7
+                    }, "Bookmaker E": {
+                        "odds_over_2.5": 2.1,
+                        "odds_under_2.5": 1.7
+                    }, "Bookmaker F": {
+                        "odds_over_2.5": 2.1,
+                        "odds_under_2.5": 1.7
+                    }, "Bookmaker G": {
+                        "odds_over_2.5": 2.1,
+                        "odds_under_2.5": 1.7
+                    }
+                }
+            },
+            "3": {
+                "event_name": "Soccer Event 3",
+                "bookmakers": {
+                    "Bookmaker A": {
+                        "odds_over_2.5": 2.0,
+                        "odds_under_2.5": 1.8
+                    },
+                    "Bookmaker B": {
+                        "odds_over_2.5": 1.9,
+                        "odds_under_2.5": 2.0
+                    },
+                    "Bookmaker C": {
+                        "odds_over_2.5": 2.1,
+                        "odds_under_2.5": 1.7
+                    }, "Bookmaker D": {
+                        "odds_over_2.5": 2.1,
+                        "odds_under_2.5": 1.7
+                    }, "Bookmaker E": {
+                        "odds_over_2.5": 2.1,
+                        "odds_under_2.5": 1.7
+                    }, "Bookmaker F": {
+                        "odds_over_2.5": 2.1,
+                        "odds_under_2.5": 1.7
+                    }, "Bookmaker G": {
+                        "odds_over_2.5": 2.1,
+                        "odds_under_2.5": 1.7
+                    }
+                }
+            },
+            "4": {
+                "event_name": "Soccer Event 4",
+                "bookmakers": {
+                    "Bookmaker A": {
+                        "odds_over_2.5": 2.0,
+                        "odds_under_2.5": 1.8
+                    },
+                    "Bookmaker B": {
+                        "odds_over_2.5": 1.9,
+                        "odds_under_2.5": 2.0
+                    },
+                    "Bookmaker C": {
+                        "odds_over_2.5": 2.1,
+                        "odds_under_2.5": 1.7
+                    }, "Bookmaker D": {
+                        "odds_over_2.5": 2.1,
+                        "odds_under_2.5": 1.7
+                    }, "Bookmaker E": {
+                        "odds_over_2.5": 2.1,
+                        "odds_under_2.5": 1.7
+                    }, "Bookmaker F": {
+                        "odds_over_2.5": 2.1,
+                        "odds_under_2.5": 1.7
+                    }, "Bookmaker G": {
+                        "odds_over_2.5": 2.1,
+                        "odds_under_2.5": 1.7
+                    }
+                }
+            },
+            "5": {
+                "event_name": "Soccer Event 5",
+                "bookmakers": {
+                    "Bookmaker A": {
+                        "odds_over_2.5": 2.0,
+                        "odds_under_2.5": 1.8
+                    },
+                    "Bookmaker B": {
+                        "odds_over_2.5": 1.9,
+                        "odds_under_2.5": 2.0
+                    },
+                    "Bookmaker C": {
+                        "odds_over_2.5": 2.1,
+                        "odds_under_2.5": 1.7
+                    }, "Bookmaker D": {
+                        "odds_over_2.5": 2.1,
+                        "odds_under_2.5": 1.7
+                    }, "Bookmaker E": {
+                        "odds_over_2.5": 2.1,
+                        "odds_under_2.5": 1.7
+                    }, "Bookmaker F": {
+                        "odds_over_2.5": 2.1,
+                        "odds_under_2.5": 1.7
+                    }, "Bookmaker G": {
+                        "odds_over_2.5": 2.1,
+                        "odds_under_2.5": 1.7
+                    }
+                }
+            }
+        }
+    },
+    "Basketball": {
+        "events": {
+            "1": {
+                "event_name": "Basketball Event 1",
+                "bookmakers": {
+                    "Bookmaker A": {
+                        "odds_over_2.5": 2.0,
+                        "odds_under_2.5": 1.8
+                    },
+                    "Bookmaker B": {
+                        "odds_over_2.5": 1.9,
+                        "odds_under_2.5": 2.0
+                    },
+                    "Bookmaker C": {
+                        "odds_over_2.5": 2.1,
+                        "odds_under_2.5": 1.7
+                    }, "Bookmaker D": {
+                        "odds_over_2.5": 2.1,
+                        "odds_under_2.5": 1.7
+                    }, "Bookmaker E": {
+                        "odds_over_2.5": 2.1,
+                        "odds_under_2.5": 1.7
+                    }, "Bookmaker F": {
+                        "odds_over_2.5": 2.1,
+                        "odds_under_2.5": 1.7
+                    }, "Bookmaker G": {
+                        "odds_over_2.5": 2.1,
+                        "odds_under_2.5": 1.7
+                    }
+                }
+            },
+            "2": {
+                "event_name": "Basketball Event 2",
+                "bookmakers": {
+                    "Bookmaker A": {
+                        "odds_over_2.5": 2.0,
+                        "odds_under_2.5": 1.8
+                    },
+                    "Bookmaker B": {
+                        "odds_over_2.5": 1.9,
+                        "odds_under_2.5": 2.0
+                    },
+                    "Bookmaker C": {
+                        "odds_over_2.5": 2.1,
+                        "odds_under_2.5": 1.7
+                    }, "Bookmaker D": {
+                        "odds_over_2.5": 2.1,
+                        "odds_under_2.5": 1.7
+                    }, "Bookmaker E": {
+                        "odds_over_2.5": 2.1,
+                        "odds_under_2.5": 1.7
+                    }, "Bookmaker F": {
+                        "odds_over_2.5": 2.1,
+                        "odds_under_2.5": 1.7
+                    }, "Bookmaker G": {
+                        "odds_over_2.5": 2.1,
+                        "odds_under_2.5": 1.7
+                    }
+                }
+                }
+            },
+            "3": {
+                "event_name": "Basketball Event 3",
+                "bookmakers": {
+                    "Bookmaker A": {
+                        "odds_over_2.5": 2.0,
+                        "odds_under_2.5": 1.8
+                    },
+                    "Bookmaker B": {
+                        "odds_over_2.5": 1.9,
+                        "odds_under_2.5": 2.0
+                    },
+                    "Bookmaker C": {
+                        "odds_over_2.5": 2.1,
+                        "odds_under_2.5": 1.7
+                    }, "Bookmaker D": {
+                        "odds_over_2.5": 2.1,
+                        "odds_under_2.5": 1.7
+                    }, "Bookmaker E": {
+                        "odds_over_2.5": 2.1,
+                        "odds_under_2.5": 1.7
+                    }, "Bookmaker F": {
+                        "odds_over_2.5": 2.1,
+                        "odds_under_2.5": 1.7
+                    }, "Bookmaker G": {
+                        "odds_over_2.5": 2.1,
+                        "odds_under_2.5": 1.7
+                    }
+                }
+            },
+            "4": {
+                "bookmakers": {
+                    "Bookmaker A": {
+                        "odds_over_2.5": 2.0,
+                        "odds_under_2.5": 1.8
+                    },
+                    "Bookmaker B": {
+                        "odds_over_2.5": 1.9,
+                        "odds_under_2.5": 2.0
+                    },
+                    "Bookmaker C": {
+                        "odds_over_2.5": 2.1,
+                        "odds_under_2.5": 1.7
+                    }, "Bookmaker D": {
+                        "odds_over_2.5": 2.1,
+                        "odds_under_2.5": 1.7
+                    }, "Bookmaker E": {
+                        "odds_over_2.5": 2.1,
+                        "odds_under_2.5": 1.7
+                    }, "Bookmaker F": {
+                        "odds_over_2.5": 2.1,
+                        "odds_under_2.5": 1.7
+                    }, "Bookmaker G": {
+                        "odds_over_2.5": 2.1,
+                        "odds_under_2.5": 1.7
+                    }
+                }
+            }
+        }
+    }
+}
