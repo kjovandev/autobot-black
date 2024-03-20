@@ -115,6 +115,19 @@ with open("found-arbs.json", "w") as f:
     json.dump(arb_opps, f, indent=4)
 
 
+def placing_priority_bet():
+    requests.post("API DOCS, but place priority bet first")
+response_priority_bet = "api placeholder"
+response_about_placed_bets = "whatever"
+def placing_second_bet():
+    if response_priority_bet == "success" and response_about_placed_bets != "watever the bet isnt placed already" :# see the api docs
+        requests.post("api docs, place non priority bet")
+    else: 
+        print("first bet denied, wont place second")
+        print("ERROR ERROR ERROR ERROR ERROR")
+        
+
+
 # def main():
 #     session_id = authenticate()
 #     if session_id:
