@@ -13,19 +13,19 @@
                         "odds_under_2.5": 2.0
                     },
                     "Bookmaker C": {
-                        "odds_over_2.5": 2.1,
+                        "odds_over_2.5": 1.1,
                         "odds_under_2.5": 1.7
                     }, "Bookmaker D": {
-                        "odds_over_2.5": 2.1,
+                        "odds_over_2.5": 1.1,
                         "odds_under_2.5": 1.7
                     }, "Bookmaker E": {
-                        "odds_over_2.5": 2.1,
+                        "odds_over_2.5": 1.1,
                         "odds_under_2.5": 1.7
                     }, "Bookmaker F": {
-                        "odds_over_2.5": 2.1,
+                        "odds_over_2.5": 1.1,
                         "odds_under_2.5": 1.7
                     }, "Bookmaker G": {
-                        "odds_over_2.5": 2.1,
+                        "odds_over_2.5": 1.1,
                         "odds_under_2.5": 1.7
                     }
                 }
@@ -42,19 +42,19 @@
                         "odds_under_2.5": 2.0
                     },
                     "Bookmaker C": {
-                        "odds_over_2.5": 2.1,
+                        "odds_over_2.5": 1.1,
                         "odds_under_2.5": 1.7
                     }, "Bookmaker D": {
-                        "odds_over_2.5": 2.1,
+                        "odds_over_2.5": 1.1,
                         "odds_under_2.5": 1.7
                     }, "Bookmaker E": {
-                        "odds_over_2.5": 2.1,
+                        "odds_over_2.5": 1.1,
                         "odds_under_2.5": 1.7
                     }, "Bookmaker F": {
-                        "odds_over_2.5": 2.1,
+                        "odds_over_2.5": 1.1,
                         "odds_under_2.5": 1.7
                     }, "Bookmaker G": {
-                        "odds_over_2.5": 2.1,
+                        "odds_over_2.5": 1.1,
                         "odds_under_2.5": 1.7
                     }
                 }
@@ -71,19 +71,19 @@
                         "odds_under_2.5": 2.0
                     },
                     "Bookmaker C": {
-                        "odds_over_2.5": 2.1,
+                        "odds_over_2.5": 1.1,
                         "odds_under_2.5": 1.7
                     }, "Bookmaker D": {
-                        "odds_over_2.5": 2.1,
+                        "odds_over_2.5": 1.1,
                         "odds_under_2.5": 1.7
                     }, "Bookmaker E": {
-                        "odds_over_2.5": 2.1,
+                        "odds_over_2.5": 1.1,
                         "odds_under_2.5": 1.7
                     }, "Bookmaker F": {
-                        "odds_over_2.5": 2.1,
+                        "odds_over_2.5": 1.1,
                         "odds_under_2.5": 1.7
                     }, "Bookmaker G": {
-                        "odds_over_2.5": 2.1,
+                        "odds_over_2.5": 1.1,
                         "odds_under_2.5": 1.7
                     }
                 }
@@ -100,19 +100,19 @@
                         "odds_under_2.5": 2.0
                     },
                     "Bookmaker C": {
-                        "odds_over_2.5": 2.1,
+                        "odds_over_2.5": 1.1,
                         "odds_under_2.5": 1.7
                     }, "Bookmaker D": {
-                        "odds_over_2.5": 2.1,
+                        "odds_over_2.5": 1.1,
                         "odds_under_2.5": 1.7
                     }, "Bookmaker E": {
-                        "odds_over_2.5": 2.1,
+                        "odds_over_2.5": 1.1,
                         "odds_under_2.5": 1.7
                     }, "Bookmaker F": {
-                        "odds_over_2.5": 2.1,
+                        "odds_over_2.5": 1.1,
                         "odds_under_2.5": 1.7
                     }, "Bookmaker G": {
-                        "odds_over_2.5": 2.1,
+                        "odds_over_2.5": 1.1,
                         "odds_under_2.5": 1.7
                     }
                 }
@@ -122,27 +122,41 @@
                 "bookmakers": {
                     "Bookmaker A": {
                         "odds_over_2.5": 2.0,
-                        "odds_under_2.5": 1.8
+                        "odds_under_2.5": 1.8,
+                        "odds_over_2.5_stake_limit": 2220,
+                        "odds_under_2.5_stake_limit": 34440
                     },
                     "Bookmaker B": {
                         "odds_over_2.5": 1.9,
-                        "odds_under_2.5": 2.0
+                        "odds_under_2.5": 2.0,
+                        "odds_over_2.5_stake_limit": 200,
+                        "odds_under_2.5_stake_limit": 300
                     },
                     "Bookmaker C": {
-                        "odds_over_2.5": 2.1,
-                        "odds_under_2.5": 1.7
+                        "odds_over_2.5": 1.1,
+                        "odds_under_2.5": 1.7,
+                        "odds_over_2.5_stake_limit": 200,
+                        "odds_under_2.5_stake_limit": 300
                     }, "Bookmaker D": {
-                        "odds_over_2.5": 2.1,
-                        "odds_under_2.5": 1.7
+                        "odds_over_2.5": 4.1,
+                        "odds_under_2.5": 1.7,
+                        "odds_over_2.5_stake_limit": 233,
+                        "odds_under_2.5_stake_limit": 300
                     }, "Bookmaker E": {
-                        "odds_over_2.5": 2.1,
-                        "odds_under_2.5": 1.7
+                        "odds_over_2.5": 1.1,
+                        "odds_under_2.5": 1.7,
+                        "odds_over_2.5_stake_limit": 200,
+                        "odds_under_2.5_stake_limit": 300
                     }, "Bookmaker F": {
-                        "odds_over_2.5": 2.1,
-                        "odds_under_2.5": 1.7
+                        "odds_over_2.5": 1.1,
+                        "odds_under_2.5": 1.7,
+                        "odds_over_2.5_stake_limit": 200,
+                        "odds_under_2.5_stake_limit": 300
                     }, "Bookmaker G": {
-                        "odds_over_2.5": 2.1,
-                        "odds_under_2.5": 1.7
+                        "odds_over_2.5": 1.1,
+                        "odds_under_2.5": 1.7,
+                        "odds_over_2.5_stake_limit": 200,
+                        "odds_under_2.5_stake_limit": 300
                     }
                 }
             }
@@ -155,27 +169,41 @@
                 "bookmakers": {
                     "Bookmaker A": {
                         "odds_over_2.5": 2.0,
-                        "odds_under_2.5": 1.8
+                        "odds_under_2.5": 1.8,
+                        "odds_over_2.5_stake_limit": 200,
+                        "odds_under_2.5_stake_limit": 300
                     },
                     "Bookmaker B": {
                         "odds_over_2.5": 1.9,
-                        "odds_under_2.5": 2.0
+                        "odds_under_2.5": 2.0,
+                        "odds_over_2.5_stake_limit": 200,
+                        "odds_under_2.5_stake_limit": 300
                     },
                     "Bookmaker C": {
-                        "odds_over_2.5": 2.1,
-                        "odds_under_2.5": 1.7
+                        "odds_over_2.5": 1.1,
+                        "odds_under_2.5": 1.7,
+                        "odds_over_2.5_stake_limit": 200,
+                        "odds_under_2.5_stake_limit": 300
                     }, "Bookmaker D": {
-                        "odds_over_2.5": 2.1,
-                        "odds_under_2.5": 1.7
+                        "odds_over_2.5": 1.1,
+                        "odds_under_2.5": 1.7,
+                        "odds_over_2.5_stake_limit": 200,
+                        "odds_under_2.5_stake_limit": 300
                     }, "Bookmaker E": {
-                        "odds_over_2.5": 2.1,
-                        "odds_under_2.5": 1.7
+                        "odds_over_2.5": 1.1,
+                        "odds_under_2.5": 1.7,
+                        "odds_over_2.5_stake_limit": 200,
+                        "odds_under_2.5_stake_limit": 300
                     }, "Bookmaker F": {
-                        "odds_over_2.5": 2.1,
-                        "odds_under_2.5": 1.7
+                        "odds_over_2.5": 1.1,
+                        "odds_under_2.5": 1.7,
+                        "odds_over_2.5_stake_limit": 200,
+                        "odds_under_2.5_stake_limit": 300
                     }, "Bookmaker G": {
-                        "odds_over_2.5": 2.1,
-                        "odds_under_2.5": 1.7
+                        "odds_over_2.5": 1.1,
+                        "odds_under_2.5": 1.7,
+                        "odds_over_2.5_stake_limit": 200,
+                        "odds_under_2.5_stake_limit": 300
                     }
                 }
             },
@@ -184,27 +212,41 @@
                 "bookmakers": {
                     "Bookmaker A": {
                         "odds_over_2.5": 2.0,
-                        "odds_under_2.5": 1.8
+                        "odds_under_2.5": 1.8,
+                        "odds_over_2.5_stake_limit": 200,
+                        "odds_under_2.5_stake_limit": 300
                     },
                     "Bookmaker B": {
                         "odds_over_2.5": 1.9,
-                        "odds_under_2.5": 2.0
+                        "odds_under_2.5": 2.0,
+                        "odds_over_2.5_stake_limit": 200,
+                        "odds_under_2.5_stake_limit": 300
                     },
                     "Bookmaker C": {
-                        "odds_over_2.5": 2.1,
-                        "odds_under_2.5": 1.7
+                        "odds_over_2.5": 1.1,
+                        "odds_under_2.5": 1.7,
+                        "odds_over_2.5_stake_limit": 200,
+                        "odds_under_2.5_stake_limit": 300
                     }, "Bookmaker D": {
-                        "odds_over_2.5": 2.1,
-                        "odds_under_2.5": 1.7
+                        "odds_over_2.5": 1.1,
+                        "odds_under_2.5": 1.7,
+                        "odds_over_2.5_stake_limit": 200,
+                        "odds_under_2.5_stake_limit": 300
                     }, "Bookmaker E": {
-                        "odds_over_2.5": 2.1,
-                        "odds_under_2.5": 1.7
+                        "odds_over_2.5": 1.1,
+                        "odds_under_2.5": 1.7,
+                        "odds_over_2.5_stake_limit": 200,
+                        "odds_under_2.5_stake_limit": 300
                     }, "Bookmaker F": {
-                        "odds_over_2.5": 2.1,
-                        "odds_under_2.5": 1.7
+                        "odds_over_2.5": 1.1,
+                        "odds_under_2.5": 1.7,
+                        "odds_over_2.5_stake_limit": 200,
+                        "odds_under_2.5_stake_limit": 300
                     }, "Bookmaker G": {
-                        "odds_over_2.5": 2.1,
-                        "odds_under_2.5": 1.7
+                        "odds_over_2.5": 1.1,
+                        "odds_under_2.5": 1.7,
+                        "odds_over_2.5_stake_limit": 200,
+                        "odds_under_2.5_stake_limit": 300
                     }
                 }
                 }
@@ -214,27 +256,41 @@
                 "bookmakers": {
                     "Bookmaker A": {
                         "odds_over_2.5": 2.0,
-                        "odds_under_2.5": 1.8
+                        "odds_under_2.5": 1.8,
+                        "odds_over_2.5_stake_limit": 200,
+                        "odds_under_2.5_stake_limit": 300
                     },
                     "Bookmaker B": {
                         "odds_over_2.5": 1.9,
-                        "odds_under_2.5": 2.0
+                        "odds_under_2.5": 2.0,
+                        "odds_over_2.5_stake_limit": 200,
+                        "odds_under_2.5_stake_limit": 300
                     },
                     "Bookmaker C": {
-                        "odds_over_2.5": 2.1,
-                        "odds_under_2.5": 1.7
+                        "odds_over_2.5": 1.1,
+                        "odds_under_2.5": 1.7,
+                        "odds_over_2.5_stake_limit": 200,
+                        "odds_under_2.5_stake_limit": 300
                     }, "Bookmaker D": {
-                        "odds_over_2.5": 2.1,
-                        "odds_under_2.5": 1.7
+                        "odds_over_2.5": 1.1,
+                        "odds_under_2.5": 1.7,
+                        "odds_over_2.5_stake_limit": 200,
+                        "odds_under_2.5_stake_limit": 300
                     }, "Bookmaker E": {
-                        "odds_over_2.5": 2.1,
-                        "odds_under_2.5": 1.7
+                        "odds_over_2.5": 1.1,
+                        "odds_under_2.5": 1.7,
+                        "odds_over_2.5_stake_limit": 200,
+                        "odds_under_2.5_stake_limit": 300
                     }, "Bookmaker F": {
-                        "odds_over_2.5": 2.1,
-                        "odds_under_2.5": 1.7
+                        "odds_over_2.5": 1.1,
+                        "odds_under_2.5": 1.7,
+                        "odds_over_2.5_stake_limit": 200,
+                        "odds_under_2.5_stake_limit": 300
                     }, "Bookmaker G": {
-                        "odds_over_2.5": 2.1,
-                        "odds_under_2.5": 1.7
+                        "odds_over_2.5": 1.1,
+                        "odds_under_2.5": 1.7,
+                        "odds_over_2.5_stake_limit": 200,
+                        "odds_under_2.5_stake_limit": 300
                     }
                 }
             },
@@ -242,27 +298,41 @@
                 "bookmakers": {
                     "Bookmaker A": {
                         "odds_over_2.5": 2.0,
-                        "odds_under_2.5": 1.8
+                        "odds_under_2.5": 1.8,
+                        "odds_over_2.5_stake_limit": 200,
+                        "odds_under_2.5_stake_limit": 300
                     },
                     "Bookmaker B": {
                         "odds_over_2.5": 1.9,
-                        "odds_under_2.5": 2.0
+                        "odds_under_2.5": 2.0,
+                        "odds_over_2.5_stake_limit": 200,
+                        "odds_under_2.5_stake_limit": 300
                     },
                     "Bookmaker C": {
-                        "odds_over_2.5": 2.1,
-                        "odds_under_2.5": 1.7
+                        "odds_over_2.5": 1.1,
+                        "odds_under_2.5": 1.7,
+                        "odds_over_2.5_stake_limit": 200,
+                        "odds_under_2.5_stake_limit": 300
                     }, "Bookmaker D": {
-                        "odds_over_2.5": 2.1,
-                        "odds_under_2.5": 1.7
+                        "odds_over_2.5": 1.1,
+                        "odds_under_2.5": 1.7,
+                        "odds_over_2.5_stake_limit": 200,
+                        "odds_under_2.5_stake_limit": 300
                     }, "Bookmaker E": {
-                        "odds_over_2.5": 2.1,
-                        "odds_under_2.5": 1.7
+                        "odds_over_2.5": 1.1,
+                        "odds_under_2.5": 1.7,
+                        "odds_over_2.5_stake_limit": 200,
+                        "odds_under_2.5_stake_limit": 300
                     }, "Bookmaker F": {
-                        "odds_over_2.5": 2.1,
-                        "odds_under_2.5": 1.7
+                        "odds_over_2.5": 1.1,
+                        "odds_under_2.5": 1.7,
+                        "odds_over_2.5_stake_limit": 200,
+                        "odds_under_2.5_stake_limit": 300
                     }, "Bookmaker G": {
-                        "odds_over_2.5": 2.1,
-                        "odds_under_2.5": 1.7
+                        "odds_over_2.5": 1.1,
+                        "odds_under_2.5": 1.7,
+                        "odds_over_2.5_stake_limit": 200,
+                        "odds_under_2.5_stake_limit": 300
                     }
                 }
             }
