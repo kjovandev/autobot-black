@@ -1,0 +1,16 @@
+[
+    {
+        "sport_id": "Soccer",
+        "event_id": "5",
+        "event_name": "Soccer Event 5",
+        "bookmaker_over": "Bookmaker D",
+        "bookmaker_under": "Bookmaker A",
+        "odds_over": 4.1,
+        "odds_under": 1.8,
+        "implied_prob_over": 24.39024390243903,
+        "implied_prob_under": 55.55555555555556,
+        "total_implied_prob": 79.94579945799458,
+        "limit_for_odds_over": 233,
+        "limit_for_odds_under": 34440
+    }
+]

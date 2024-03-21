@@ -1,6 +1,6 @@
 import requests
 import json
-# todo MAKE THE FINDING HUMAN ERROR FUNCT
+# todo optimise codea and format it PROPERLY
 
 
 # a lot of code needs to be adapted in order for the algorithm to work. (examples would be the for loop, which solely depents on the api response for getting ods)
@@ -68,14 +68,99 @@ def find_arb_opps(data):
 
 
 
-def human_error(arb_opps, oddsResponse):
-    # this is where your code goes
-    return
-
 
 
 
 arb_opps = find_arb_opps(odds_response)
+
+def average_odds(arb_opps, odds_response):
+    avg_odds = []
+    event_odds = {}
+    for arb_opp in arb_opps:
+        event_key = f"{arb_opp['sport_id']}_{arb_opp['event_id']}"
+        if event_key not in event_odds:
+            event_odds[event_key] = {"over": [], "under": []}
+        for sport, sport_data in odds_response["sports"].items():
+            if sport == arb_opp["sport_id"]:
+                events = sport_data.get("events", {})
+                for event_id, event_data in events.items():
+                    if event_id == arb_opp["event_id"]:
+                        bookmakers = event_data.get("bookmakers", {})
+                        for bookmaker, odds in bookmakers.items():
+                            over_odds = odds.get("odds_over_2.5", None)
+                            under_odds = odds.get("odds_under_2.5", None)
+                            if over_odds is not None and under_odds is not None:
+                                event_odds[event_key]["over"].append(over_odds)
+                                event_odds[event_key]["under"].append(under_odds)
+                               
+    for event_key, odds_data in event_odds.items():
+        avg_over = sum(odds_data["over"]) / len(odds_data["over"])
+        avg_under = sum(odds_data["under"]) / len(odds_data["under"])
+        # print(f"Event: {event_key}, Average Over Odds: {avg_over:.2f}, Average Under Odds: {avg_under:.2f}")
+        average_odds_input = {
+            "Event_num" : event_key,
+            "avg_odds_OVER": avg_over,
+            "avg_odds_UNDER" : avg_under
+             }
+        avg_odds.append(average_odds_input)
+        return(avg_odds)
+    
+avg_odds_returned = average_odds(arb_opps, odds_response)
+
+def human_error(avg_odds_returned_data, arb_opps_data):
+    final_arb_data = []
+    avg_odd_over = avg_odds_returned[0].get("avg_odds_OVER", 0)
+    avg_odd_under = avg_odds_returned[0].get("avg_odds_UNDER", 0)
+    arb_opp_under =  arb_opps_data[0].get("odds_under_2.5", 0)
+    arb_opps_over =  arb_opps_data[0].get("odds_over_2.5", 0)
+    dif_under = abs(avg_odd_under - arb_opp_under)
+    dif_over = abs(avg_odd_over - arb_opps_over)
+    if dif_under > dif_over:
+        final_calcs = {
+                        "sport_id": avg_odds_returned[0].get("sport_id", 0),
+                        "event_id": avg_odds_returned[0].get("event_id", 0),
+                        "event_name": avg_odds_returned[0].get("event_name", 0),
+                        "bookmaker_over": avg_odds_returned[0].get("bookmaker_over", 0),
+                        "bookmaker_under": avg_odds_returned[0].get("bookmaker_under", 0),
+                        "odds_over": avg_odds_returned[0].get("odds_over", 0),
+                        "odds_under": avg_odds_returned[0].get("odds_under", 0),
+                        "implied_prob_over": avg_odds_returned[0].get("implied_prob_over", 0),
+                        "implied_prob_under": avg_odds_returned[0].get("implied_prob_under", 0),
+                        "total_implied_prob": avg_odds_returned[0].get("total_implied_prob", 0),
+                        "limit_for_odds_over": avg_odds_returned[0].get("limit_for_odds_over", 0),
+                        "limit_for_odds_under": avg_odds_returned[0].get("limit_for_odds_under", 0), 
+                        "first to play is ": "UNDER"
+                        }
+    elif dif_over > dif_under:
+         if dif_over > dif_under:
+             final_calcs = { 
+                        "sport_id": avg_odds_returned[0].get("sport_id", 0),
+                        "event_id": avg_odds_returned[0].get("event_id", 0),
+                        "event_name": avg_odds_returned[0].get("event_name", 0),
+                        "bookmaker_over": avg_odds_returned[0].get("bookmaker_over", 0),
+                        "bookmaker_under": avg_odds_returned[0].get("bookmaker_under", 0),
+                        "odds_over": avg_odds_returned[0].get("odds_over", 0),
+                        "odds_under": avg_odds_returned[0].get("odds_under", 0),
+                        "implied_prob_over": avg_odds_returned[0].get("implied_prob_over", 0),
+                        "implied_prob_under": avg_odds_returned[0].get("implied_prob_under", 0),
+                        "total_implied_prob": avg_odds_returned[0].get("total_implied_prob", 0),
+                        "limit_for_odds_over": avg_odds_returned[0].get("limit_for_odds_over", 0),
+                        "limit_for_odds_under": avg_odds_returned[0].get("limit_for_odds_under", 0) ,
+                        "first_to_play_is: ": "OVER"
+                        }
+         else:
+             print("error in finding first to play")
+    final_arb_data.append(final_calcs)
+    return(final_arb_data)
+    
+final_data_to_bet = human_error(avg_odds_returned, arb_opps)
+    
+
+
+
+print("..................")
+print("final data to bet is: ")
+print(final_data_to_bet)
 
 def calc_bets(arb_opps_data, budget_data):
 
