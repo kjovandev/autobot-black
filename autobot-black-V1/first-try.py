@@ -25,20 +25,28 @@ odds_response = dummy_data #placeholder for a response which will be used
 #         print("Authentication failed.")
 #         return None
 
+
+
+obradjeni = []    
+
 def find_arb_opps(data):
     arb_opps = []
     sports = data.get("sports", {})
     for sport, sport_data in sports.items():
         events = sport_data.get("events", {})
         for event_id, event_data in events.items():
+            obradjeni = []
             event_name = event_data.get("event_name", "")
             bookmakers = event_data.get("bookmakers", {})
             for bookmaker_a, odds_a in bookmakers.items():
-                if len(arb_opps) == 1:
-                    break  # Break out of the loop if one arbitrage opportunity is found
+                obradjeni.append(bookmaker_a)
+                # if len(arb_opps) == 1:
+                #     break  # Break out of the loop if one arbitrage opportunity is found
                 for bookmaker_b, odds_b in bookmakers.items():
-                    if len(arb_opps) > 0:
-                        break  # Skip if one arbitrage opportunity is found or if it's the same bookmaker
+                    if obradjeni.__contains__(bookmaker_b):
+                        continue
+                    # if len(arb_opps) > 0:
+                    #     break  # Skip if one arbitrage opportunity is found or if it's the same bookmaker
                     odds_over_a = odds_a.get("odds_over_2.5", 0)
                     odds_under_b = odds_b.get("odds_under_2.5", 0)
                     implied_prob_a = (1 / odds_over_a) * 100
@@ -62,16 +70,12 @@ def find_arb_opps(data):
                             "limit_for_odds_under": limit_bookie_b
                         }
                         arb_opps.append(arb_opportunity)
+                        break
     return arb_opps
 
 
-
-
-
-
-
-
 arb_opps = find_arb_opps(odds_response)
+print(arb_opps)
 
 def average_odds(arb_opps, odds_response):
     avg_odds = []
@@ -101,7 +105,7 @@ def average_odds(arb_opps, odds_response):
             "Event_num" : event_key,
             "avg_odds_OVER": avg_over,
             "avg_odds_UNDER" : avg_under
-             }
+            }
         avg_odds.append(average_odds_input)
         return(avg_odds)
     
@@ -187,8 +191,8 @@ def calc_bets(arb_opps_data, budget_data):
         bet_stake_under = bet_under_where_limit_over_is_budget_for_over
     else:
         print("CLUSTERFUCK")
-    print("bet stake for under is:", bet_stake_under)
-    print("bet stake for over is:", bet_stake_over)
+    # print("bet stake for under is:", bet_stake_under)
+    # print("bet stake for over is:", bet_stake_over)
     print("limit for under is: ", limit_under)
     print("limit for over is: ", limit_over)
     print("odds for over are: ", odds_over)
